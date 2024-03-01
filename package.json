@@ -4,6 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Husan Eshonqulov",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/bot.js",
+    "start:dev": "nodemon ./src/bot.ts"
+  },
   "dependencies": {
     "dotenv": "^16.4.5",
     "grammy": "^1.21.1"
