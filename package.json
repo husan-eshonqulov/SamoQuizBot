@@ -6,8 +6,8 @@
   "author": "Husan Eshonqulov",
   "scripts": {
     "build": "tsc",
-    "start": "node ./dist/bot.js",
-    "start:dev": "nodemon ./src/bot.ts"
+    "start": "node ./dist/index.js",
+    "start:dev": "nodemon ./src/index.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
