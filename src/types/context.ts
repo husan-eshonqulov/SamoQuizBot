@@ -1,3 +1,6 @@
 import { Context } from 'grammy';
+import { ConversationFlavor } from '@grammyjs/conversations';
 
-export default Context;
+type MyContext = Context & ConversationFlavor;
+
+export default MyContext;
