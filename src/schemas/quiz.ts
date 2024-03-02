@@ -13,6 +13,13 @@ const quiz = new Schema({
     type: Number,
     required: true,
   },
+  category: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
+  },
 });
 
 export default quiz;
