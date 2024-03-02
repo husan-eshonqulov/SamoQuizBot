@@ -1,6 +1,6 @@
 import { Bot } from 'grammy';
 
-import config from '../config/bot';
+import config from '../config/config';
 import commandList from '../commands';
 import startCommand from '../commands/start';
 import helpCommand from '../commands/help';

@@ -2,4 +2,6 @@ import { model } from 'mongoose';
 
 import quizSchema from '../schemas/quiz';
 
-export default model('Quiz', quizSchema);
+const userModel = model('Quiz', quizSchema);
+
+export default userModel;
