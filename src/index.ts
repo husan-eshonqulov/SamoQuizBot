@@ -1,6 +1,6 @@
 import connectDb from './utils/connectDb';
-import config from './config/config';
-import bot from './bot/bot';
+import config from './config';
+import bot from './bot';
 
 const bootstrap = async () => {
   try {
