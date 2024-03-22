@@ -1,5 +1,7 @@
 {
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": { "source.fixAll": "always" },
+  "eslint.validate": ["typescript"],
   "typescript.tsdk": "node_modules/typescript/lib"
 }
