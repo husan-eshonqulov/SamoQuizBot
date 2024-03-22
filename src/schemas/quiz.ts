@@ -3,23 +3,23 @@ import { Schema } from 'mongoose';
 const quiz = new Schema({
   question: {
     type: String,
-    required: true,
+    required: true
   },
   options: {
     type: [String],
-    retuired: true,
+    retuired: true
   },
   answer: {
     type: Number,
-    required: true,
+    required: true
   },
   category: {
     type: String,
-    required: true,
+    required: true
   },
   description: {
-    type: String,
-  },
+    type: String
+  }
 });
 
 export default quiz;

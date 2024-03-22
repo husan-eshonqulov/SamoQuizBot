@@ -10,7 +10,7 @@ const bootstrap = async () => {
     bot.start({
       onStart: () => {
         logger.info(`https://t.me/${bot.botInfo.username} has been started...`);
-      },
+      }
     });
   } catch (err) {
     logger.error(err);

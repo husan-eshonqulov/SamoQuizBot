@@ -13,12 +13,12 @@ const devLogger = createLogger({
   level: 'debug',
   format: combine(
     timestamp({
-      format: 'DD/MM/YYYY h:mm:ss A',
+      format: 'DD/MM/YYYY h:mm:ss A'
     }),
     myFormat,
     colorize({ all: true })
   ),
-  transports: [new transports.Console()],
+  transports: [new transports.Console()]
 });
 
 export default devLogger;
