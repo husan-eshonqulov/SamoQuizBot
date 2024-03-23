@@ -12,10 +12,12 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "eslint-plugin-import/extensions": "always"
+    "eslint-plugin-import/no-unresolved": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off"
   },
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module"
-  },
+  }
 }
