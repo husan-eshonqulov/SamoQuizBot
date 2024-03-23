@@ -1,7 +1,7 @@
 import Context from '../../types/context';
 
 const start = async (ctx: Context) => {
-  ctx.reply('You enter /help command.');
+  ctx.reply(ctx.i18n('help'));
 };
 
 export default start;
