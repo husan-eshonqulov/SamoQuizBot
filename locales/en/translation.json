@@ -1,4 +1,6 @@
 {
-    "start": "You enter /start command.",
-    "help": "You enter /help command."
+    "commands": {
+        "start": "You enter /start command.",
+        "help": "You enter /help command."
+    }
 }

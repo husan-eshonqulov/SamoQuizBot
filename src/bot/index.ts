@@ -1,16 +1,16 @@
 import { Bot } from 'grammy';
 
-import MyContext from '../types/context';
+import Context from '../types/context';
 import config from '../config';
+import i18n from '../services/i18n';
 import commandList from './commands';
 import startCommand from './commands/start';
 import helpCommand from './commands/help';
-import i18n from '../services/i18n';
 
-const bot = new Bot<MyContext>(config.botToken);
+const bot = new Bot<Context>(config.botToken);
 
 bot.use(async (ctx, next) => {
-  const userLang = 'uz';
+  const userLang = 'en';
   ctx.i18n = i18n.getFixedT(userLang);
   await next();
 });

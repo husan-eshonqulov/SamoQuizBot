@@ -1,4 +1,6 @@
 {
-    "start": "/start buyrug'i kiritildi.",
-    "help": "/help buyrug'i kiritildi."
+    "commands": {
+        "start": "/start buyrug'i kiritildi.",
+        "help": "/help buyrug'i kiritildi."
+    }
 }
